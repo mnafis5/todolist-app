@@ -18,7 +18,7 @@ $acts = $row;
                        <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="What should be done today?" name="act" aria-label="Recipient's username" aria-describedby="button-addon2" required>
                 <input type="hidden" name="zaman" value="<?= $date->format('d-m-y h:i:s'); ?>">
-                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Add</button>
+                <button class="btn btn-outline-primary" type="submit" id="button-addon2">Add</button>
             </div>
             </form>
         </div>
